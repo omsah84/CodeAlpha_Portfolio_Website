@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - OM SAH</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/648982f640.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">       
+            <nav>
+                <img src="image/logo.png" alt="image" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li> 
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Om Sah</span></h1>
+                <p>FullStack Developer</p>
+                <a href="image/OMSAH.pdf" download class="btn btn2"> Download CV</a>
+            </div>
+        </div>
+    </div>
+
+     
+<!-- ====about===== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/bg.PNG" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am pursuing a B.Tech in Computer Science Engineeing  from SVCET, Chittoor. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>React.js</li>
+                            <li>Python</li>
+                            <li>DataStructure</li>
+                            <li>Algorithm</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Web Developer Internship.</li>
+                            <li><span>2022</span><br>Ethical Hacking Tranning.</li>
+                            <li><span>2020</span><br>OJT from Janakpur.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>B-tech in Computer Science Engineeing.</li>
+                            <li><span>2020</span><br>Intermediate(+2).</li>
+                            <li><span>2017</span><br>8th from Bording School.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- =====services===== -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"> </i>
+                    <h2>Full Stact development</h2>
+                    <p>We are the most sought-after Web Design & Digital Marketing Company in Bhubaneswar, Odisha. We provide services like Web design & development, SEO , Social media …</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"> </i>
+                    <h2>UI/UX Design</h2>
+                    <p>We are the most sought-after Web Design & Digital Marketing Company in Bhubaneswar, Odisha. We provide services like Web design & development, SEO , Social media …</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"> </i>
+                    <h2>Front-end development</h2>
+                    <p>We are the most sought-after Web Design & Digital Marketing Company in Bhubaneswar, Odisha. We provide services like Web design & development, SEO , Social media …</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"> </i>
+                    <h2>Back-end development</h2>
+                    <p>We are the most sought-after Web Design & Digital Marketing Company in Bhubaneswar, Odisha. We provide services like Web design & development, SEO , Social media …</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"> </i>
+                    <h2>App development</h2>
+                    <p>We are the most sought-after Web Design & Digital Marketing Company in Bhubaneswar, Odisha. We provide services like Web design & development, SEO , Social media …</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"> </i>
+                    <h2>MERN development</h2>
+                    <p>We are the most sought-after Web Design & Digital Marketing Company in Bhubaneswar, Odisha. We provide services like Web design & development, SEO , Social media …</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"> </i>
+                    <h2>Software development</h2>
+                    <p>We are the most sought-after Web Design & Digital Marketing Company in Bhubaneswar, Odisha. We provide services like Web design & development, SEO , Social media …</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"> </i>
+                    <h2>Digital Marketing</h2>
+                    <p>We are the most sought-after Web Design & Digital Marketing Company in Bhubaneswar, Odisha. We provide services like Web design & development, SEO , Social media …</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+
+<!-- ======portfolio======= -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/portfolio.PNG" alt="">
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>This is My Portfolio in HTML, CSS, JavaScript. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/gui.png" alt="">
+                    <div class="layer">
+                        <h3>GUI Calculator</h3>
+                        <p>This is Graphic User Interface Advance Calculator. In Python tkinter library. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/wordpress.PNG" alt="">
+                    <div class="layer">
+                        <h3>WordPress Web site</h3>
+                        <p>This is wordpress web site. Content Management System. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/gui.PNG" alt="">
+                    <div class="layer">
+                        <h3>WordPress Web site</h3>
+                        <p>This is wordpress web site. Content Management System. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- --------------contact----------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>huncyoms@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8986983491</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/wzzg.gzzw" target="_blank"><i class="fa-brands fa-facebook"></i> </a>
+                        <a href="https://twitter.com/OMSAH_84?s=08" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/omsah_84?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/omsah84" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/omsah84" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="image/OMSAH.pdf" download class="btn btn2"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message" required> </textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright OmSah, Made with<i class="fas fa-heart"></i> by Om Prakash Sah</p>
+        </div>
+    </div>
+
+    <script>
+
+
+// for menu bar
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+
+
+<!-- for menu bar -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    
+    
+    <!-- contact form -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbziXqkDhAJQ5eSTLqENv7SFz_vUwpubidU2ky459jghF2Nb0LJvMWkhwAzZRniZsRX4/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully" 
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+</body>
+
+</html>
